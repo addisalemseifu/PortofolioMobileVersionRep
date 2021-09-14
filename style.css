@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(231, 224, 224);
+}
+
+.front_page {
+  height: 100vh;
+  background-image: url(./img/mobile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 100px;
+}
+
+.nav_bar {
+  margin-top: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menue_bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.bar {
+  margin-bottom: 3px;
+  width: 1.5rem;
+  height: 0.2rem;
+  background-color: #6070ff;
+}
+
+.logo {
+  margin-left: 24px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+  text-decoration: underline;
+  text-decoration-color: #6070ff;
+}
+
+.porto_wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.headline {
+  margin-top: 128px;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 52px;
+  text-align: left;
+}
+
+.headline:hover {
+  text-decoration: underline;
+  text-decoration-color: #6070ff;
+}
+
+.description {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.description:hover {
+  text-decoration: underline;
+  text-decoration-color: #6070ff;
+}
+
+.connect {
+  margin-bottom: 24px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.connect:hover {
+  text-decoration: underline;
+  text-decoration-color: #6070ff;
+}
+
+.contact_us_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.fa-twitter {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.fa-linkedin-in {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.fa-github-square {
+  color: black;
+  font-size: 1.5rem;
+}
