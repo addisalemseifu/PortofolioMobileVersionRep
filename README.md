@@ -1,6 +1,9 @@
 
 ## PortofolioMobileVersionRep
-> This is the first portofolio done depending on "Templet 1" of figma website.
+> This is the first portofolio done depending on "Templet 1" of figma website. The project is done using one section tag and two main div tags. The main aim of the project was to deplicate a portofolio file found in figma.
+
+## user instruction
+any one who wants to use the project can get in git hub website using the key word "PortofolioMobileVersionRep". and then copy the code and clone it on a personal computer using the git clone <filename> comand.
 
 Example of index.html part of the project
 > ![rep2index](https://user-images.githubusercontent.com/65928536/133286134-e227af69-caee-4e0a-b841-62b5ffe37fc2.png)
